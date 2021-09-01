@@ -66,8 +66,8 @@ const HeroSection = () => {
 				<HeroContentItemKanan>
 					<HeroH1>Adazeus</HeroH1>
 					<HeroP>
-						Adazeus stands for PunkEtherEarn. Our trusted community
-						is a place where we can Adazeus in safety.
+						Adazeus, here to reward his holders and punish the weak.
+						Be fair to Zeus, and he will give you wings to fly .
 					</HeroP>
 					<HeroBtnWrapper>
 						{/* 0x0000000000000000000000000000000000000000 */}

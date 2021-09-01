@@ -8,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 export default function Timeline() {
 	return (
-		<div className="timeline" id="timeline">
+		<div className="timeline" id="timeline" style={{ overflowX: "hidden" }}>
 			<h1 className="title">Timeline</h1>
 			<VerticalTimeline>
 				{timelineElements.map((element) => {

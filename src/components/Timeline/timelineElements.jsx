@@ -2,7 +2,7 @@ let timelineElements = [
 	{
 		id: 1,
 		title: "Initialize Token",
-		location: "August, 2021",
+		location: "September, 2021",
 		// description:
 		//     "Launch Community Group ✅, Launch Website ✅, Launch PEE Token ",
 		description1: "• Launch Community Group ✅",

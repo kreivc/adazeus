@@ -6,7 +6,7 @@ export const homeObjOne = {
 	topLine: "About Adazeus Token",
 	headline: "Create a Safehaven For Token Traders",
 	description:
-		"Our main goal is to provide people a safe and trustworthy place where they can invest their money. Adazeus holders can earn ADA rewards by holding a certain amount of the token. As a community developed token, we focus on the needs of our community members. ",
+		"Our main goal is to provide people a safe and trustworthy place where they can invest their money. Adazeus holders can earn ADA rewards by holding a certain amount of the token. As a community developed token, we focus on the needs of our community members.",
 	imgStart: false,
 	img: require("../../images/about2.svg").default,
 	alt: "Car",
