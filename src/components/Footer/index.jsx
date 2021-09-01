@@ -32,7 +32,7 @@ const Footer = () => {
 						</WebsiteRights>
 						<SocialIcons>
 							<SocialIconLink
-								href="#"
+								href="https://t.me/AdaZeus"
 								target="_blank"
 								aria-label="Telegram"
 							>

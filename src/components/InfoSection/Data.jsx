@@ -35,5 +35,5 @@ export const homeObjTwo = {
 	d4: "7% ADA Reward",
 	d5: "4% Liquidity Provider",
 	d6: "6% Marketing",
-	d7: "60 Seconds Cooldown Buys",
+	d7: "60 Seconds Cooldown Buys at Launch",
 };
