@@ -32,7 +32,7 @@ export const homeObjTwo = {
 	d1: "100.000.000.000 Tokens",
 	d2: "2.5% Max Buy",
 	d3: "3.5% Max Wallet",
-	d4: "8% ETH",
+	d4: "8% ADA",
 	d5: "2% LP",
 	d6: "6% Marketing",
 };
