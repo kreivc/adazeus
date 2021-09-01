@@ -3,7 +3,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { IoMdCopy } from "react-icons/io";
 
 export const HeroContainer = styled.div`
-	background: #fbfcfd;
+	background: #0c0c0c;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -13,21 +13,21 @@ export const HeroContainer = styled.div`
 	position: relative;
 	z-index: 1;
 
-	/* &:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        background: linear-gradient(
-                180deg,
-                rgba(0, 0, 0, 0.2) 0%,
-                rgba(0, 0, 0, 0.6) 100%
-            ),
-            linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
-        z-index: 2;
-    } */
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		background: linear-gradient(
+				180deg,
+				rgba(0, 0, 0, 0.2) 0%,
+				rgba(0, 0, 0, 0.6) 100%
+			),
+			linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+		z-index: 2;
+	}
 `;
 
 export const HeroBg = styled.div`
@@ -65,13 +65,13 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-	color: #0138cc;
+	color: #fff;
 	font-size: 48px;
 	text-align: left;
 	display: flex;
 	flex-wrap: wrap;
-	/* text-shadow: 1px 1px 2px #fff, 0 0 1em #044df5, 0 0 0.2em #044df5,
-		0 0 0.4em #044df5; */
+	text-shadow: 1px 1px 2px #fff, 0 0 1em #1df3f4, 0 0 0.2em #1df3f4,
+		0 0 0.4em #1df3f4;
 
 	@media screen and (max-width: 768px) {
 		font-size: 40px;
@@ -85,7 +85,7 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
 	margin-top: 24px;
-	color: #020717;
+	color: #fff;
 	font-size: 24px;
 	text-align: left;
 	max-width: 600px;

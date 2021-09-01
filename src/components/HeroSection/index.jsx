@@ -20,10 +20,10 @@ import Snackbar from "@material-ui/core/Snackbar";
 import IconButton from "@material-ui/core/IconButton";
 import { MdClose } from "react-icons/md";
 import { Slide } from "@material-ui/core";
-import Image from "../../images/PEE.png";
+// import Image from "../../images/PEE.png";
+import Image from "../../images/Adazeus2.png";
 // import Video from "../../videos/video3.mp4";
-import Video from "../../videos/videoB.mp4";
-import ParticleBackground from "../ParticleBg";
+import Video from "../../videos/video_4.mp4";
 
 const HeroSection = () => {
 	const [hover, setHover] = useState(false);
@@ -48,15 +48,14 @@ const HeroSection = () => {
 	return (
 		<HeroContainer id="home">
 			<HeroBg>
-				{/* <VideoBg
+				<VideoBg
 					playsInline
 					autoPlay
 					loop
 					muted
 					src={Video}
 					type="video/mp4"
-				/> */}
-				<ParticleBackground />
+				/>
 			</HeroBg>
 			<HeroContent>
 				<HeroContentItemKiri>
@@ -67,11 +66,12 @@ const HeroSection = () => {
 				<HeroContentItemKanan>
 					<HeroH1>Adazeus</HeroH1>
 					<HeroP>
-						Adazeus stands for Adazeus. Our trusted community is a
-						place where we can Adazeus in safety.
+						Adazeus stands for PunkEtherEarn. Our trusted community
+						is a place where we can Adazeus in safety.
 					</HeroP>
 					<HeroBtnWrapper>
-						<CopyToClipboard text="0x402529CBE402F87Fc1A9c97fAb0aBADa0a6Da334">
+						{/* 0x0000000000000000000000000000000000000000 */}
+						<CopyToClipboard text="Not released yet">
 							<Button
 								primary="true"
 								dark="true"
@@ -79,7 +79,8 @@ const HeroSection = () => {
 								onMouseLeave={onHover}
 								onClick={handleClick}
 							>
-								0x402529CBE402F87Fc1A9c97fAb0aBADa0a6Da334
+								{/* 0x0000000000000000000000000000000000000000 */}
+								Not released yet
 								{hover ? <IoCopy /> : <ArrowRight />}
 							</Button>
 						</CopyToClipboard>

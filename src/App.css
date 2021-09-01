@@ -10,11 +10,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-	/* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
-	background-color: #fbfcfd;
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #010606;
 }
 
 body::-webkit-scrollbar-thumb {
-	background-color: #0138cc;
+	background-color: #1df3f4;
 	border-radius: 15px;
 }
