@@ -39,7 +39,7 @@ const Footer = () => {
 								<FaTelegram />
 							</SocialIconLink>
 							<SocialIconLink
-								href="https://twitter.com/ada_zeus"
+								href="https://twitter.com/AdaZeusBSC"
 								target="_blank"
 								aria-label="Twitter"
 							>
