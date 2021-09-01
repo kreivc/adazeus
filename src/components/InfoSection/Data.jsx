@@ -29,11 +29,11 @@ export const homeObjTwo = {
 	dark: false,
 	primary: false,
 	darkText: true,
-	d1: "1% Max Transaction",
+	d1: "2% Max Transaction",
 	d2: "10.000.000.000 Total Supply",
 	d3: "4% Max Wallet",
 	d4: "7% ADA Reward",
 	d5: "4% Liquidity Provider",
 	d6: "6% Marketing",
-	d7: "60 Seconds Cooldown Between Buys and Sells",
+	d7: "60 Seconds Cooldown Buys",
 };
