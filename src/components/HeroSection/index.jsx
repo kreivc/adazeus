@@ -20,10 +20,8 @@ import Snackbar from "@material-ui/core/Snackbar";
 import IconButton from "@material-ui/core/IconButton";
 import { MdClose } from "react-icons/md";
 import { Slide } from "@material-ui/core";
-// import Image from "../../images/PEE.png";
-import Image from "../../images/Adazeus2.png";
-// import Video from "../../videos/video3.mp4";
-import Video from "../../videos/video_4.mp4";
+import Image from "../../images/Adazeus.png";
+import Video from "../../videos/video.mp4";
 
 const HeroSection = () => {
 	const [hover, setHover] = useState(false);
@@ -67,7 +65,7 @@ const HeroSection = () => {
 					<HeroH1>Adazeus</HeroH1>
 					<HeroP>
 						Adazeus, here to reward his holders and punish the weak.
-						Be fair to Zeus, and he will give you wings to fly .
+						Be fair to Zeus and he will give you wings to fly .
 					</HeroP>
 					<HeroBtnWrapper>
 						{/* 0x0000000000000000000000000000000000000000 */}
