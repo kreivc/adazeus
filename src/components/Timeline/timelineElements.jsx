@@ -18,9 +18,9 @@ let timelineElements = [
 		// description:
 		//     "Introducing Influencers and Collaborations With Key Market Players, 10k Holders, Further deployment of listings on several platforms",
 		description1: "• 10k Holders",
-		description2: "• Introducing Influencers",
-		description3: "• Further listings platforms",
-		description4: "• Collaborations with key market players",
+		description2: "• Further listings platforms",
+		description3: "• Collaborations with key market players",
+		// description4: "• Collaborations with key market players",
 		buttonText: "Coming Soon!",
 		icon: "cms",
 	},
