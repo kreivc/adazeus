@@ -82,7 +82,7 @@ const Navbar = ({ toggle }) => {
 						</NavItem>
 						<NavItem>
 							<NavGoto
-								href="https://poocoin.app/"
+								href="https://poocoin.app/tokens/0xdb2daf120120d60dc5d08ebb4b06896a238a610a"
 								target="_blank"
 							>
 								Chart
