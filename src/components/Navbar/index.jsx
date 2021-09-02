@@ -88,6 +88,14 @@ const Navbar = ({ toggle }) => {
 								Chart
 							</NavGoto>
 						</NavItem>
+						<NavItem>
+							<NavGoto
+								href="https://t.me/AdaZeus"
+								target="_blank"
+							>
+								Telegram
+							</NavGoto>
+						</NavItem>
 					</NavMenu>
 					<NavBtn>
 						<NavBtnLink
