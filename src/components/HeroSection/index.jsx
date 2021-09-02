@@ -69,16 +69,14 @@ const HeroSection = () => {
 					</HeroP>
 					<HeroBtnWrapper>
 						{/* 0x0000000000000000000000000000000000000000 */}
-						<CopyToClipboard text="Not released yet">
+						<CopyToClipboard text="0xDb2DaF120120D60Dc5d08eBb4b06896a238a610a">
 							<Button
 								primary="true"
 								dark="true"
-								onMouseEnter={onHover}
-								onMouseLeave={onHover}
 								onClick={handleClick}
 							>
 								{/* 0x0000000000000000000000000000000000000000 */}
-								Not released yet
+								0xDb2DaF120120D60Dc5d0..
 								{hover ? <IoCopy /> : <ArrowRight />}
 							</Button>
 						</CopyToClipboard>
@@ -92,7 +90,7 @@ const HeroSection = () => {
 						open={open}
 						autoHideDuration={3000}
 						onClose={handleClose}
-						message="PEE Address Copied!"
+						message="Adazeus Address Copied!"
 						action={
 							<IconButton onClick={handleClose}>
 								<MdClose />

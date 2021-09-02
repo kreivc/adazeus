@@ -101,8 +101,8 @@ const Navbar = ({ toggle }) => {
 						<NavBtnLink
 							href="https://pancakeswap.finance/"
 							target="_blank"
-							onMouseOver={() => setPancake("Not released yet")}
-							onMouseLeave={() => setPancake("Buy On Pancake")}
+							// onMouseOver={() => setPancake("Not released yet")}
+							// onMouseLeave={() => setPancake("Buy On Pancake")}
 						>
 							{pancake}
 						</NavBtnLink>
