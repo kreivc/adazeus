@@ -7,8 +7,8 @@ import {
 	HeroH1,
 	HeroP,
 	HeroBtnWrapper,
-	IoCopy,
-	ArrowRight,
+	// IoCopy,
+	// ArrowRight,
 	HeroContentItemKiri,
 	HeroContentItemKanan,
 	HeroContentImgWrapper,
@@ -22,14 +22,15 @@ import { MdClose } from "react-icons/md";
 import { Slide } from "@material-ui/core";
 import Image from "../../images/Adazeus.png";
 import Video from "../../videos/video.mp4";
+import Metamask from "../Metamask";
 
 const HeroSection = () => {
-	const [hover, setHover] = useState(false);
+	// const [hover, setHover] = useState(false);
 	const [open, setOpen] = useState(false);
 
-	const onHover = () => {
-		setHover(!hover);
-	};
+	// const onHover = () => {
+	// 	setHover(!hover);
+	// };
 
 	const handleClick = () => {
 		setOpen(true);
@@ -76,8 +77,9 @@ const HeroSection = () => {
 								onClick={handleClick}
 							>
 								{/* 0x0000000000000000000000000000000000000000 */}
-								0xDb2DaF120120D60Dc5d0..
-								{hover ? <IoCopy /> : <ArrowRight />}
+								0xDb2DaF120120D60Dc5d0.. &nbsp;
+								{/* {hover ? <IoCopy /> : <ArrowRight />} */}
+								<Metamask />
 							</Button>
 						</CopyToClipboard>
 					</HeroBtnWrapper>

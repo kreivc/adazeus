@@ -16,7 +16,7 @@ import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = ({ toggle }) => {
 	const [scrollNav, setScrollNav] = useState(false);
-	const [pancake, setPancake] = useState("Buy On Pancake");
+	// const [pancake, setPancake] = useState("Buy On Pancake");
 	const changeNav = () => {
 		if (window.scrollY >= 80) {
 			setScrollNav(true);
@@ -104,7 +104,8 @@ const Navbar = ({ toggle }) => {
 							// onMouseOver={() => setPancake("Not released yet")}
 							// onMouseLeave={() => setPancake("Buy On Pancake")}
 						>
-							{pancake}
+							{/* {pancake} */}
+							Buy On Pancake
 						</NavBtnLink>
 					</NavBtn>
 				</NavbarContainer>
