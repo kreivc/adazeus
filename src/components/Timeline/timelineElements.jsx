@@ -5,8 +5,8 @@ let timelineElements = [
 		location: "September, 2021",
 		description1: "• Launch Community Group ✅",
 		description2: "• Launch Website ✅",
-		description3: "• Launch Adazeus Token",
-		buttonText: "On Going!",
+		description3: "• Launch Adazeus Token ✅",
+		buttonText: "Success!",
 		icon: "success",
 	},
 	{
